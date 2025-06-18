@@ -2,6 +2,8 @@
 
 2025 Final project for Computer Organization
 
+![image](https://cdn.discordapp.com/emojis/1346556552945078404.webp?size=96)
+
 ## Objective
 
 Q1: Gem5 + NVmain build up
