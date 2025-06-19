@@ -49,3 +49,10 @@ you can see whether it is worked in config.ini
 - In gem5/src/mem/cache/bace.cc\
 Important: 'BaseCache::writecleanBlk()'\
 Make the cache write back everytime when write hit.\
+
+### Bonus
+
+Nah bro, I'm not gonna do that.
+
+## Wish me pass
+![image](https://cdn.discordapp.com/emojis/1346556552945078404.webp?size=96)
