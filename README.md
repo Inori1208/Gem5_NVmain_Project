@@ -56,3 +56,4 @@ Nah bro, I'm not gonna do that.
 
 ## Wish me pass
 ![image](https://cdn.discordapp.com/emojis/1346556552945078404.webp?size=96)
+This is good luck Hoshino, everyone can get good luck if you uhe~
