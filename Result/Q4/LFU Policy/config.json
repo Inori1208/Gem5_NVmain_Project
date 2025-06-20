@@ -67,7 +67,7 @@
             "cxx_class": "CoherentXBar", 
             "forward_latency": 0, 
             "clk_domain": "system.cpu_clk_domain", 
-            "point_of_unification": false, 
+            "point_of_unification": true, 
             "width": 32, 
             "eventq_index": 0, 
             "default_p_state": "UNDEFINED", 
@@ -87,7 +87,16 @@
                 "role": "SLAVE"
             }, 
             "p_state_clk_gate_min": 1000, 
-            "snoop_filter": null, 
+            "snoop_filter": {
+                "name": "snoop_filter", 
+                "system": "system", 
+                "max_capacity": 8388608, 
+                "eventq_index": 0, 
+                "cxx_class": "SnoopFilter", 
+                "path": "system.tol3bus.snoop_filter", 
+                "type": "SnoopFilter", 
+                "lookup_latency": 0
+            }, 
             "power_model": [], 
             "path": "system.tol3bus", 
             "snoop_response_latency": 1, 
