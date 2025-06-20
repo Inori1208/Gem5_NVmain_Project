@@ -42,17 +42,17 @@ There's also multple people just change l3\_assoc to 16384<sub>for 1MB size</sub
 - In gem5/configs/common/Caches.py\
 In where you add L3 cache class:\
 add the replacement policy\
-you can see whether it is worked in config.ini\
+you can see whether it is worked in config.ini
 
 - In gem5/src/mem/cache/replacement\_policies/lfu\_rp.cc\
 Look carefully how LFU policy work in default.\
-Need add some code in order to match the policy description written in PPT.\ 
+Need add some code in order to match the policy description written in PPT.
 
 ### Q5(Write back & Write through)
 
 - In gem5/src/mem/cache/bace.cc\
 Important: 'BaseCache::writecleanBlk()'\
-Make the cache write back everytime when write hit.\
+Make the cache write back everytime when write hit.
 
 ### Bonus
 
